@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "23beaf48-3cf6-4573-b108-406e69d2a064",
+		"name": "Intuitivecare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43598865",
+		"_collection_link": "https://victorkurata.postman.co/workspace/Victor-Kurata's-Workspace~ef011ac5-559f-43f5-8b49-4ba8780a8ed3/collection/43598865-23beaf48-3cf6-4573-b108-406e69d2a064?action=share&source=collection_link&creator=43598865"
+	},
+	"item": [
+		{
+			"name": "buscar operadoras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/buscar?query=Unimed",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "Unimed"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
